@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="loader">
+        <div id="preloader">
+            <div class="loader-emojis">
+                <span>😃</span>
+                <span>😐</span>
+                <span>😢</span>
+                <span>😡</span>
+            </div>
+            <p class="load">Loading...</p>
+        </div>
+    </section>
+
+
+    <div class="main-content hidden">
+        <div class="container" id="homeContent">
+            <div class="header">
+                <h1>Calendar</h1>
+                <div class="rightheader">
+                    <button id="monthBtn">View Month</button>
+                </div>
+            </div>
+            <div class="content">
+                <h1 id="month"></h1>
+                <h1 id="date"></h1>
+                <div id="mood-selector">
+                    <h3>Select Your Mood</h3>
+                    <div class="text">
+                        <div>Happy</div>
+                        <div>Neutral</div>
+                        <div>Sad</div>
+                        <div>Angry</div>
+                    </div>
+                    <div class="emojis">
+                        <button id="happy" data-mood="happy">😃</button>
+                        <button id="neutral" data-mood="neutral">😐</button>
+                        <button id="sad" data-mood="sad">😢</button>
+                        <button id="angry" data-mood="angry">😡</button>
+                    </div>
+                </div>
+                <div class="notes">
+                    <input type="text" id="chatInput" placeholder="Add a short note!">
+                </div>
+                <button class="add" id="addlist"><b>Apply Mood</b></button>
+            </div>
+        </div>
+
+        <div id="monthContent" class="content hidden">
+            <h1>Select a Month</h1>
+            <div id="monthDisplay"></div>
+            <button id="backToHome">Back to Home</button>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
