@@ -40,4 +40,4 @@ The Mood Calendar is a tool designed to help individuals track and reflect on th
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
+Copyright (c) 2024 Subham Das 
