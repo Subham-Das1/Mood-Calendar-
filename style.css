@@ -289,3 +289,14 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+
+@media (max-width: 480px) {
+    .date-item{
+        font-size: 1em;
+    }
+
+    content #date {
+        font-size: 10rem;
+    }
+}
