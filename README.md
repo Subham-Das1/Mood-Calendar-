@@ -29,10 +29,11 @@ The Mood Calendar is a tool designed to help individuals track and reflect on th
 
 ## Contributing
 - Fork the repository.
-- Create a new branch (git checkout -b feature-xyz).
+- Create a new branch (git checkout -b feature-Mood-Calendar).
 - Make your changes and commit them (git commit -am 'Add feature xyz').
 - Push to your branch (git push origin feature-xyz).
 - Create a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
