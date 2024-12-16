@@ -1,13 +1,3 @@
-// window.addEventListener('load', () => {
-//     const preloader = document.getElementById('preloader');
-//     const container = document.querySelector(".container");;
-
-//     setTimeout(() => {
-//         preloader.style.display = 'none';
-//         container.style.display = 'block';
-//     }, 2000); 
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
     // Loader
     setTimeout(function() {
