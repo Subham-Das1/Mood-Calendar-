@@ -294,6 +294,9 @@ body {
 @media (max-width: 480px) {
     .date-item{
         font-size: 1em;
+        margin: 2px;
+        padding: 5px;
+
     }
 
     content #date {
