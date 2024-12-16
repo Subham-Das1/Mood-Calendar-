@@ -18,9 +18,11 @@ The Mood Calendar is a tool designed to help individuals track and reflect on th
    ```bash
    git clone https://github.com/Subham-Das1/Mood-Calendar-.git
 
-2.Install dependencies:
+2. Install dependencies: npm install
 
+3. Start the app: npm start
 
+4.Open the app in your browser at http://localhost:3000.
 
 ## Usage
 - Select a date on the calendar.
